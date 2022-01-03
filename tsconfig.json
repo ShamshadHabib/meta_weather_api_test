@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": false,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "module": "commonjs",
+    "noUnusedLocals": true,
+    "outDir": "dist",
+    "paths": {
+      "~support/*": [
+        "./support/*"
+      ],
+      "~resources/*": [
+        "./resources/*"
+      ],
+      "~test/*": [
+        "./test/*"
+      ]
+    },
+    "resolveJsonModule": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "es2018",
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "types": [
+      "jest-extended"
+    ]
+  },
+  "include": [
+    "test/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
